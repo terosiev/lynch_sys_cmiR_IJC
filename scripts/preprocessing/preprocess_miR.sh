@@ -4,7 +4,7 @@
 #SBATCH --output=NGS_out_%A_%a.txt
 #SBATCH --error=NGS_err_%A_%a.txt
 #SBATCH --time=04:00:00
-#SBATCH --account=project_2002657
+#SBATCH --account=project_xxxxx
 #SBATCH --mem-per-cpu=4000
 #SBATCH --array=1-96
 #SBATCH --cpus-per-task=1
@@ -13,7 +13,7 @@
 
 
 # export PROJAPPL directory for sharing compiled applications and libraries etc with project members
-export PROJAPPL="/projappl/project_2002657"
+export PROJAPPL="/projappl/project_xxxxx"
 
 # set locale settings to avoid warnings if any especially with mac users
 export LC_ALL="en_US.UTF-8"
