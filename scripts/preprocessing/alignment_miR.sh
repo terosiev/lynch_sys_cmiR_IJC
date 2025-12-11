@@ -6,13 +6,13 @@
 #SBATCH --time=04:00:00
 #SBATCH --partition=small
 #SBATCH --cpus-per-task=2
-#SBATCH --account=project_2002657
+#SBATCH --account=project_xxxxx
 #SBATCH --mem=16000
 #SBATCH --array=1-155
 
 
 # export PROJAPPL directory for sharing compiled applications and libraries etc with project members
-export PROJAPPL="/projappl/project_2002657"
+export PROJAPPL="/projappl/project_xxxxx"
 
 # set locale settings to avoid warnings if any especially with mac users
 export LC_ALL="en_US.UTF-8"
