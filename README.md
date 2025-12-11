@@ -1,5 +1,5 @@
 # lynch_sys_cmiR_IJC
-- Supplement code for "Systemic circulating microRNA landscape in Lynch syndrome" (https://doi.org/10.1002/ijc.34338.)
+- Supplementary code for "Systemic circulating microRNA landscape in Lynch syndrome" (https://doi.org/10.1002/ijc.34338.)
 - Differential expression analysis for small-RNA sequencing data used in Sievänen et al. (2022)
 
 ## Update
