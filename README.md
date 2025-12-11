@@ -1,13 +1,15 @@
-# lynch_cMir
-Supplement code for "Systemic circulating microRNA landscape in Lynch syndrome". DOI:  https://doi.org/10.1002/ijc.34338
+# lynch_sys_cmiR_IJC
+- Supplement code for "Systemic circulating microRNA landscape in Lynch syndrome" (https://doi.org/10.1002/ijc.34338.)
+- Differential expression analysis for small-RNA sequencing data used in Sievänen et al. (2022)
 
-# sRNA_DE
-Differential expression analysis for small-RNA sequencing data used in Sievänen et al. (2022). This is the latest version.
+Updated 11.12.2025
+- Added preprocessing scripts
+- Reorganized the repo
 
-Updated 30.1.2025
-- Meta data was edited - removed patient specific information. Data available upon reasonable request.
-- Scripts were harmonized accordingly and modularized for easier and efficient reusability. 
-
-## Files
+## Data
 - Phenodata_age = experimental setup
 - rawCounts = c-miR counts after preprocessing
+
+## Scripts
+- /de = used for DE analysis
+- /preprocessing = bash scripts used for data preprocessing
