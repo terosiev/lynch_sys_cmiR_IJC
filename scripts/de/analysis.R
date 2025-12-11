@@ -13,6 +13,9 @@ library(tidyverse)   # For data manipulation and visualization
 library(DT)          # For interactive tables
 library(plotly)      # For interactive plots
 
+# Get helpers
+source(utils.R)
+
 # Data import ----
 counts <- read.csv("rawCounts.tsv", header = TRUE, sep = "\t")  # Raw counts data
 targets <- read.csv("phenodata_age.txt", sep = "\t", header = TRUE)  # Study design
