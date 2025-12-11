@@ -1,5 +1,5 @@
 # lynch_cMir
-Supplement code for "Systemic circulating microRNA landscape in Lynch syndrome"
+Supplement code for "Systemic circulating microRNA landscape in Lynch syndrome". DOI:  https://doi.org/10.1002/ijc.34338
 
 # sRNA_DE
 Differential expression analysis for small-RNA sequencing data used in Sievänen et al. (2022). This is the latest version.
